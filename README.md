@@ -67,7 +67,7 @@ O sistema utiliza arquivos JSON:
 
 ## Exemplo de uso
 
-### Cadastro de peça
+### Cadastro de peça válida
 
 Entrada:
 Peso: 100  
@@ -76,6 +76,22 @@ Tamanho: 10
 
 Resultado:
 Peça validada e armazenada como válida
+
+---
+
+### Cadastro de peça inválida
+
+Entrada:
+Peso: 70  
+Cor: vermelho  
+Tamanho: 8  
+
+Saída:
+Peça inválida  
+Motivos:
+- Peso fora do padrão  
+- Cor inválida  
+- Tamanho incorreto  
 
 ---
 
@@ -97,6 +113,19 @@ O sistema gera um relatório contendo:
 - Total de peças inválidas
 - Quantidade de caixas fechadas
 - Motivos de invalidação
+
+- Saída:
+
+=== RELATÓRIO ===  
+Caixas completas: 1  
+Peças boas: 10  
+Peças reprovadas: 5  
+
+Motivos de reprovação:
+- Peso fora do padrão: 2  
+- Cor inválida: 2  
+- Tamanho incorreto: 1  
+=================
 
 ---
 
