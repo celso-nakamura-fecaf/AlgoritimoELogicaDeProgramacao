@@ -70,7 +70,7 @@ O sistema utiliza arquivos JSON:
 ### Cadastro de peça
 
 Entrada:
-Peso: 70  
+Peso: 100  
 Cor: azul  
 Tamanho: 10  
 
